@@ -18,14 +18,12 @@ export default function HomeScreen({ navigation }) {
 
 const styles = StyleSheet.create({
     container: {
-      // Estilo para el contenedor principal
       flex: 1, // Ocupa todo el espacio disponible
       justifyContent: 'center', // Centra los elementos verticalmente
       alignItems: 'center', // Centra los elementos horizontalmente
       backgroundColor: '#FFFFFF', // Color de fondo blanco
     },
     welcomeText: {
-      // Estilo para el texto de bienvenida
       fontSize: 24, // Tamaño de fuente
       fontWeight: 'bold', // Negrita
       color: '#4CAF50', // Color verde

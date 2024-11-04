@@ -70,36 +70,30 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    // Estilo para el contenedor principal
     flex: 1, // Ocupa todo el espacio disponible
     justifyContent: 'center', // Centra los elementos verticalmente
     alignItems: 'center', // Centra los elementos horizontalmente
   },
   innerContainer: {
-    // Estilo para un contenedor interno
     alignItems: 'center', // Centra los elementos horizontalmente
     marginBottom: 20, // Espacio debajo del contenedor
   },
   image: {
-    // Estilo para la imagen
     width: 150, // Ancho de la imagen
     height: 150, // Alto de la imagen
     marginBottom: 10, // Espacio debajo de la imagen
   },
   text: {
-    // Estilo para el texto
     fontSize: 20, // Tamaño de fuente
     fontWeight: '600', // Grosor de la fuente
     color: 'green', // Color verde
   },
   buttonText: {
-    // Estilo para el texto del botón
     color: 'white', // Color del texto
     fontSize: 16, // Tamaño de fuente
     textAlign: 'center', // Alineación centrada
   },
   navigationButton: {
-    // Estilo para el botón de navegación
     flexDirection: 'row', // Disposición horizontal de los elementos
     alignItems: 'center', // Centra los elementos verticalmente
     width: 150, // Ancho del botón
@@ -110,7 +104,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center', // Centra los elementos horizontalmente
   },
   icon: {
-    // Estilo para el icono dentro del botón
     marginRight: 8, // Espacio entre el icono y el texto
   },
 });
