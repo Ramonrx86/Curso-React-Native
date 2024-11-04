@@ -1,0 +1,20 @@
+npx create-expo-app  -------------------------------------------?????????????????????????????????????????
+
+cd ~/Documentos/Repositorios/Curso-React-Native
+
+npx expo init my-app-holamundo
+
+cd my-app-holamundo
+
+npx expo install expo-linear-gradient
+
+npm install @react-navigation/native
+
+npx expo install react-native-screens react-native-safe-area-context
+
+npm install @react-navigation/native-stack
+
+npx expo start
+------------------------------------------------------------------------------------------------------------------  APP.js
+
+
