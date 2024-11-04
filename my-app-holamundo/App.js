@@ -20,8 +20,4 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: '#333',
   },
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> origin/main
