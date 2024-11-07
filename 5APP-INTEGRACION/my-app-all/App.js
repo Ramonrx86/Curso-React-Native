@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, Alert, Pressable } from 'react-native';
+import { StyleSheet, Text, View, Image, Alert, Pressable, Button, TouchableHighlight } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -29,21 +29,21 @@ function MainScreen({ navigation }) {
       </View>
       
       {/* Botón 1 que muestra una alerta */}
-      {/* <View style={styles.buttonContainer}>
+      <View style={styles.buttonContainer}>
         <Button title="PULSA AQUÍ" onPress={showAlert} color="#4CAF50" />
-      </View> */}
+      </View>
 
       {/* Botón 2 personalizado usando TouchableHighlight */}
-      {/* <TouchableHighlight
+      <TouchableHighlight
         style={styles.customButton}
         onPress={showCustomAlert}
         underlayColor="#DDDDDD"
       >
         <Text style={styles.buttonText}>Presiona Aquí</Text>
-      </TouchableHighlight> */}
+      </TouchableHighlight>
 
       {/* Botón 3 Pressable con un icono */}
-      {/* <Pressable style={styles.pressableButton} onPress={showCustomAlert}>
+      <Pressable style={styles.pressableButton} onPress={showCustomAlert}>
         <MaterialIcons name="login" size={24} color="white" />
         <Text style={styles.buttonText}> Enviar</Text>
       </Pressable>
@@ -136,4 +136,3 @@ const styles = StyleSheet.create({
     marginRight: 8,
   },
 });
-
