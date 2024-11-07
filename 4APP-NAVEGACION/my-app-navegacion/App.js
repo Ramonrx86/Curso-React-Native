@@ -106,4 +106,4 @@ const styles = StyleSheet.create({
   icon: {
     marginRight: 8, // Espacio entre el icono y el texto
   },
-});
+}); 

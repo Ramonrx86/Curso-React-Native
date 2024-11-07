@@ -29,5 +29,4 @@ const styles = StyleSheet.create({
       color: '#4CAF50', // Color verde
       marginBottom: 20, // Espacio debajo del texto
     },
-  });
-  
+  }); 

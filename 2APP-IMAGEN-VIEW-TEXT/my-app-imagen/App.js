@@ -48,4 +48,4 @@ const styles = StyleSheet.create({
     position: 'absolute', // Posición absoluta del logo
     bottom: 10, // Distancia desde el fondo
   },
-});
+}); 

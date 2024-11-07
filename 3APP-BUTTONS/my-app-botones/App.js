@@ -111,4 +111,4 @@ const styles = StyleSheet.create({
     position: 'absolute', // Posición absoluta
     bottom: 30, // Distancia desde el fondo
   },
-});
+}); 

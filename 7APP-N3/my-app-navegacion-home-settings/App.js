@@ -89,4 +89,4 @@ const styles = StyleSheet.create({
     borderRadius: 55,
     marginBottom: 17.5,
   },
-});
+}); 
