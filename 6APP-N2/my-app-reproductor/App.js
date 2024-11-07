@@ -17,7 +17,7 @@ export default function MusicScreen() {
       {/* Imagen del álbum */}
       <View style={styles.imageContainer}>
         <Image
-          source={{ uri: 'https://upload.wikimedia.org/wikipedia/en/0/0a/Heart_-_Barracuda.png' }} // Reemplaza con la URL de la imagen o usa require('./path-to-image.jpg')
+          source={{ uri: 'https://upload.wikimedia.org/wikipedia/en/0/0a/Heart_-_Barracuda.png' }}
           style={styles.albumImage}
         />
       </View>
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   },  
   albumImage: {
     width: 250,
-    height: 250, // Imagen más grande
+    height: 250, 
     borderRadius: 20,
   },
   songTitle: {
