@@ -53,6 +53,11 @@ function MainScreen({ navigation }) {
         <MaterialIcons name="lock" size={24} color="white" style={styles.icon} />
         <Text style={styles.buttonText}>Iniciar sesión</Text>
       </Pressable>
+      <Image
+        source={{ uri: 'https://goctechnology.com/images/btn_g_login.png' }} // Imagen desde URL
+        style={styles.logo}
+        resizeMode="contain"
+      />
     </LinearGradient>
   );
 }
@@ -127,8 +132,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    width: 150,
-    height: 150,
+    width: 200,
+    height: 100,
     position: 'absolute',
     bottom: 30,
   },
